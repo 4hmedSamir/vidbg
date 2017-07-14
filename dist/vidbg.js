@@ -260,9 +260,9 @@
     $wrapper.css('background-image', 'url(' + poster + ')');
 
     // If a parent element has a static position, make it relative
-    if ($element.css('position') === 'static') {
-      $element.css('position', 'relative');
-    }
+    // if ($element.css('position') === 'static') {
+    //   $element.css('position', 'relative');
+    // }
     $element.css('z-index', '1');
 
     // If the element is set to body make the wrapper position fixed
